@@ -1,0 +1,231 @@
+*{ padding: 0; margin: 0;}
+/*navbar*/
+.navbar{
+    width: 100%;
+background-color: #1c3879;
+display: flex;
+justify-content: space-between;
+}
+.navbar .div1{ display: flex; color: #97d2ec; margin: 30px;}
+.div1 h1{
+    margin-top: -15px;
+    padding-left: 10px;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.div1 i{ margin-top: -10px; font-size: 30px;}
+.div2{ margin-top: 30px; margin-left: 100px;}
+ .div2 ul{ display: flex; list-style: none;}
+.div2 ul li{
+    padding-left: 30px;
+    text-transform: capitalize;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.div2 ul li a{text-decoration: none; color: white;}
+.div2 ul li a:hover{ color: #97d2ec ;}
+.div3{margin-top: 15px;margin-right:100px;}
+.div3 button{
+    border: 2px solid #0096ff;
+    border-radius: 30px;
+     padding: 10px 10px;
+     background-color: #0096ff;
+     color: white;
+     text-transform: capitalize;
+     font-size: 20px;
+}
+.div3 button:hover{
+    border-color: #97d2ec;
+    background-color: #97d2ec;
+}
+.sec2 video{
+    width: 100%;
+    opacity: 0.7;
+    position: relative;
+ }
+ .content{
+    width: 40%;
+    position: absolute;
+    top: 35%;
+    left: 32%;
+ }
+ .content h1{
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'PT Sans Caption', sans-serif;
+ }
+ #h11{position: absolute; left: 33%;}
+ .content p{  color: white;  font-size: 20px;}
+ .content .bord{
+    display: flex;
+    position: absolute;
+    top:130px;
+    left: 15%;
+    
+ }
+ #p1{
+   border: 2px solid white;
+   padding: 5px 5px;
+   text-transform: capitalize;
+ }
+ #p2{
+    border: 2px solid white;
+    border-left: 0px;
+    padding: 5px 5px;
+    text-transform: capitalize;
+ }
+ .image img{ width: 400px;}
+ .image img:hover{ opacity: 0.5;}
+ .image p{
+    color: white;
+    font-size: 30px;
+    font-family: 'PT Sans Caption', sans-serif;
+ }
+ .one{
+   position: absolute;
+   top: 85%;
+   left: 50px;
+ }
+ .one p{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+ }
+.two{
+    position: absolute;
+    top: 85%;
+    left: 36%;
+}
+.two p{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+.three{
+    position: absolute;
+    top: 85%;
+    left: 70%;
+}
+.three p{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+.sec3{
+    margin-top: 150px;
+    margin-left: 100px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.sec3 h1{
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.sec3 .divOne{ width: 40%;}
+.divOne h4{font-size: 30px;   margin-bottom: 10px;}
+.divOne p{
+    font-size: 20px;
+    color: #9e9c98;
+    margin-bottom: 20px;
+}
+.divOne .btn1{
+    padding: 10px 10px;
+    border: 2px solid #0096ff;
+    color: #0096ff;
+    border-radius: 30px;
+    font-size: 20px;
+    text-transform: capitalize;
+    background-color: white;
+}
+.divOne .btn1:hover{background-color: #0096ff; color: white;}
+.divOne .btn2{
+    padding: 10px 10px;
+    border: 2px solid #1c3879;
+    color: #0096ff;
+    border-radius: 30px;
+    font-size: 20px;
+    text-transform: capitalize;
+    background-color: #1c3879;
+    color: white;
+}
+.divOne .btn2:hover{ background-color: #0096ff;
+   border-color: #0096ff;
+}
+.divTwo{
+    width: 40%;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    margin-left: -60px;
+}
+.divTwo h4{ font-size: 30px; margin-bottom: 30px;}
+.divTwo img{
+    width: 50px;
+    border: 2px solid white;
+     border-radius: 50%;
+     margin-left: -20px;
+    margin-top: 40px;
+}
+.divTwo p{
+    margin-left: 30vh;
+    margin-top: -40px;
+    background-color: #0096ff;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.sec12 .icons{
+    display: flex;
+   margin: 50px;
+}
+.icons h1{
+    margin-top: -15px;
+    padding-left: 50px;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #0096ff;
+}
+.icons ul{
+    display: flex;
+    margin-left: 120vh;
+    list-style: none;
+}
+.icons ul li{
+    font-size: 20px;
+     padding-left: 30px;
+}
+.sec13{
+    display: flex;
+   
+    margin:100px;
+}
+.div12 ul{
+    display: flex;
+    list-style: none;
+}
+.div12 ul li a{
+    color: #9e9c98;
+    font-size: 20px;
+    padding-left: 30px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.div12 ul li a:hover{
+    color: #0096ff;
+}
+.copy{
+    margin-left: 300px;
+    width: 300px;
+}
+.copy p{
+    font-size: 20px;
+    color: #9e9c98;
+    text-transform: capitalize;
+}
+.copy h6{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #9e9c98;
+}

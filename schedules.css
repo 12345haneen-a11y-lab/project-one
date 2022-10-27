@@ -1,0 +1,222 @@
+*{ padding: 0; margin: 0;}
+/*navbar*/
+.navbar{
+    width: 100%;
+background-color: #1c3879;
+display: flex;
+justify-content: space-between;
+}
+.navbar .div1{ display: flex; color: #97d2ec; margin: 30px;}
+.div1 h1{
+    margin-top: -15px;
+    padding-left: 10px;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.div1 i{ margin-top: -10px; font-size: 30px;}
+.div2{ margin-top: 30px; margin-left: 100px;}
+ .div2 ul{ display: flex; list-style: none;}
+.div2 ul li{
+    padding-left: 30px;
+    text-transform: capitalize;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.div2 ul li a{text-decoration: none; color: white;}
+.div2 ul li a:hover{ color: #97d2ec ;}
+.div3{margin-top: 15px;margin-right:100px;}
+.div3 button{
+    border: 2px solid #0096ff;
+    border-radius: 30px;
+     padding: 10px 10px;
+     background-color: #0096ff;
+     color: white;
+     text-transform: capitalize;
+     font-size: 20px;
+}
+.div3 button:hover{
+    border-color: #97d2ec;
+    background-color: #97d2ec;
+}
+#head{
+    margin-top: 100px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+span{
+    color: #0096ff;
+    text-decoration: underline;
+}
+.sec6{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+.sec6 div{ 
+     width: 18%; 
+     height: 90px; 
+     padding: 20px;}
+.sec6 h1{
+    font-size: 30px; 
+    text-transform: capitalize;
+}
+.sec6 p{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #9e9c98;
+}
+.day1{
+    border-left: 5px solid #0096ff;
+    color: #0096ff;
+    box-shadow: 5px 5px 5px gray;
+}
+.sec6 div:hover{
+    border-left: 5px solid #0096ff;
+    color: #0096ff;
+    box-shadow: 5px 5px 5px gray;
+}
+.sec7{
+    width: 90%;
+    margin-bottom: 100px;
+    position: relative;
+    margin-left: 100px;
+}
+.sec7 .image1{ width: 400px; border-radius: 10px;}
+.sec7 .img1{ width: 70px; border-radius: 50%;}
+.sec7 h1{ font-size: 40px;}
+.sec7 .p1{font-size: 20px;color: #9e9c98; }
+.sec7 .p2{font-size: 20px;}
+.sec7 .p3,.p4,.p5{font-size: 20px; color: #62605d;}
+.dayOne h1{ position: absolute;
+    top: 20px;
+    left: 30%;
+}
+.dayOne .p1{position: absolute;
+top: 70px;
+left: 30%;
+}
+.dayOne .img1{position: absolute;
+top: 150px;
+left: 30%;
+}
+.dayOne .p2{text-transform: capitalize; position: absolute;
+    top: 150px;
+    left: 36%;
+}
+.dayOne .p3{text-transform: capitalize; position: absolute;
+top: 180px;
+left: 37%;
+}
+.dayOne .p4{position: absolute; top: 170px;left: 55%;}
+.dayOne .p5{position: absolute; top: 170px; left: 72%;}
+.dayTwo{margin-top: 30px;}
+.dayTwo h1{position: absolute; 
+    top: 42vh; 
+    left: 30%;}
+.dayTwo .p1{position: absolute; 
+    top: 49vh;
+    left: 30%;
+}
+.dayTwo .img1{position: absolute;
+    top: 60vh;
+    left: 30%;
+}
+.dayTwo .p2{position: absolute;
+    top: 60vh;
+    left: 36%;
+}
+.dayTwo .p3{position: absolute;
+    top: 64vh;
+    left: 37%;
+}
+.dayTwo .p4{position: absolute;top: 64vh;
+    left: 55%;
+}
+.dayTwo .p5{position: absolute;top: 64vh;
+    left: 72%;
+}
+.dayThree{margin-top: 30px;}
+.dayThree h1{position: absolute;
+    top: 83vh;
+    left: 30%;
+}
+.dayThree .p1{position: absolute;
+    top: 90vh;
+    left: 30%;
+}
+.dayThree .img1{position: absolute;
+     top: 98vh;
+    left: 30%;
+}
+.dayThree .p2{position: absolute;
+top: 98vh;
+left: 36%;
+}
+.dayThree .p3{position: absolute;
+top: 102vh;
+left: 37%;
+}
+.dayThree .p4{position: absolute;
+top: 101vh;
+left: 55%;
+}
+.dayThree .p5{position: absolute;
+top: 101vh;
+left: 72%;
+}
+.sec12 .icons{
+    display: flex;
+   margin: 50px;
+}
+.icons h1{
+    margin-top: -15px;
+    padding-left: 50px;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #0096ff;
+}
+.icons ul{
+    display: flex;
+    margin-left: 120vh;
+    list-style: none;
+}
+.icons ul li{
+    font-size: 20px;
+     padding-left: 30px;
+}
+.sec13{
+    display: flex;
+   
+    margin:100px;
+}
+.div12 ul{
+    display: flex;
+    list-style: none;
+}
+.div12 ul li a{
+    color: #9e9c98;
+    font-size: 20px;
+    padding-left: 30px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.div12 ul li a:hover{
+    color: #0096ff;
+}
+.copy{
+    margin-left: 300px;
+    width: 300px;
+}
+.copy p{
+    font-size: 20px;
+    color: #9e9c98;
+    text-transform: capitalize;
+}
+.copy h6{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #9e9c98;
+}
