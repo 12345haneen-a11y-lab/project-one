@@ -1,4 +1,7 @@
 # project-one
+
+
+HTML , CSS 
 for leadership event
 ![Web capture_26-10-2022_215145_127 0 0 1](https://user-images.githubusercontent.com/114311397/198312032-84aa1cfe-e895-4c24-a844-4dbda1679cb0.jpeg)
 ![Web capture_26-10-2022_215128_127 0 0 1](https://user-images.githubusercontent.com/114311397/198312041-854bbce4-1803-4d17-9627-c01db38ad5f4.jpeg)
